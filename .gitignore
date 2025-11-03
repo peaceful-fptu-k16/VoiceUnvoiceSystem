@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Server
+server/temp_*
+server/*.wav
+server/*.mp3
+server/*.m4a
+
+# Desktop Client
+desktop_client/*.wav
+desktop_client/*.mp3
+desktop_client/*.m4a
+
+# Android
+android_client/.gradle/
+android_client/.idea/
+android_client/build/
+android_client/*/build/
+android_client/local.properties
+android_client/*.iml
+android_client/*.apk
+android_client/*.ap_
+android_client/*.aab
+android_client/.cxx/
+android_client/captures/
+android_client/.externalNativeBuild/
+
+# iOS
+ios_client/*.xcodeproj/xcuserdata/
+ios_client/*.xcworkspace/xcuserdata/
+ios_client/DerivedData/
+ios_client/build/
+ios_client/*.ipa
+ios_client/*.dSYM.zip
+ios_client/*.dSYM
+ios_client/.DS_Store
+
+# Test files
+test_*.wav
+test_*.mp3
+result.json
