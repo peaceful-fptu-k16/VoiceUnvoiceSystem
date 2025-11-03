@@ -72,21 +72,21 @@
 │ Desktop  │ Android  │         iOS            │ │
 │ Tkinter  │ Kotlin   │        Swift           │ │
 └────┬─────┴────┬─────┴────────┬───────────────┘ │
-     │          │              │                  │
+     │          │              │                 │
      │  HTTP    │   HTTP       │   HTTP          │
      │  POST    │   POST       │   POST          │
-     │          │              │                  │
-     └──────────┴──────────────┘                  │
-                │                                 │
-                ▼                                 │
+     │          │              │                 │
+     └──────────┴──────────────┘                 │
+                │                                │
+                ▼                                │
      ┌──────────────────────┐                    │
      │   FastAPI Server     │                    │
      │  - Receive Audio     │                    │
      │  - Analyze w/Librosa │                    │
      │  - Return JSON       │                    │
      └──────────┬───────────┘                    │
-                │                                 │
-                ▼                                 │
+                │                                │
+                ▼                                │
      ┌──────────────────────┐                    │
      │  Analysis Engine     │                    │
      │  (Librosa 0.10.1)    │                    │
